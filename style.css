@@ -1,0 +1,26 @@
+
+.flexbox {
+    border: 2px solid skyblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+.flexbox ul {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+
+
+}
+.flexbox li {
+    list-style: none;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    justify-content: center;
+    display: flex;
+    background: turquoise;
+    margin: 10px;
+    align-items: center;
+}
